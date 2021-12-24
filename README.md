@@ -1,5 +1,6 @@
 This program is a simulation of EA implementation on the given TSP topology. 
 
+
 Parameters:
 file_name          # Input tsp file name.
 iteration_count    # Number of iterations.
@@ -12,8 +13,10 @@ n                  # 2-opt operator is applied on the selected individual n time
 k                  # Once in every k generations apply the 2-opt operator. If the value is 0, 2-opt will not be implemented.
 
 
+
 Usage:
 python program.py [file_name] [iteration_count] [population_size] [crossover_operator] [mutation_operator] [generation_count] [m] [n] [k]
+
 
 
 Example:
