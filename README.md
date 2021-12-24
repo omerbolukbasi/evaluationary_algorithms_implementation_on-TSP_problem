@@ -1,10 +1,11 @@
 ## This program is a simulation of EA implementation on the given TSP topology. 
 <br>
 <br>
-Parameters:
+#### Parameters:
 <br>
-file_name          # Input tsp file name.<br>
-iteration_count    # Number of iterations.<br>
+<br>
+file_name      &ensp;    # Input tsp file name.<br>
+iteration_count  &ensp;  # Number of iterations.<br>
 population_size    # Number of individuals in the population.<br>
 crossover_operator # "OX" for Ordered Crossover Operator, "SCX" Sequential Constructive Crossover.<br>
 mutation_operator  # "ISM":Insertion Mutation, "IVM":Inversion Mutation, "SM":Swap Mutation, "RM":Random mutation.<br>
@@ -15,12 +16,14 @@ k                  # Once in every k generations apply the 2-opt operator. If th
 
 <br>
 <br>
-Usage:<br>
+#### Usage:<br>
+<br>
 python program.py [file_name] [iteration_count] [population_size] [crossover_operator] [mutation_operator] [generation_count] [m] [n] [k]<br>
 <br>
 
 
-Example:<br>
+#### Example:<br>
+<br>
 (base) C:\Users> python program.py kroA100.tsp 100 50 OX ISM 15 2 3 5<br>
 Execution Start Time: 2021-11-20 22:32:59.652513<br>
 Iteration: 0<br>
