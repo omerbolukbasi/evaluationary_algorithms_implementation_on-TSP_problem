@@ -1,8 +1,8 @@
 ## This program is a simulation of EA implementation on the given TSP topology. 
-
-
+<br>
+<br>
 Parameters:
-file_name          # Input tsp file name.
+- file_name          # Input tsp file name.
 iteration_count    # Number of iterations.
 population_size    # Number of individuals in the population.
 crossover_operator # "OX" for Ordered Crossover Operator, "SCX" Sequential Constructive Crossover.
