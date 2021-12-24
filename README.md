@@ -2,6 +2,7 @@
 This program is a simulation of EA implementation on the given TSP topology. Several genetic mutation and recombination algorithms are applied and being compared within an academic paper. Below is the usage of the program. 
 <br>
 <br>
+
 #### Parameters:
 <br>
 <br>
@@ -18,6 +19,7 @@ k                  # Once in every k generations apply the 2-opt operator. If th
 
 <br>
 <br>
+
 #### Usage:
 <br>
 <br>
