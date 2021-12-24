@@ -15,15 +15,12 @@ This program is a simulation of EA implementation on the given TSP topology. Sev
 **m**                  : Apply 2-opt operator on randomly selected m individuals from the population. If the value is 0, 2-opt will not be implemented.<br>
 **n**                  : 2-opt operator is applied on the selected individual n times. If the value is 0, 2-opt will not be implemented. <br>
 **k**                  : Once in every k generations apply the 2-opt operator. If the value is 0, 2-opt will not be implemented.<br>
-
-<br>
 <br>
 
 #### Usage:
 <br>
 python program.py [file_name] [iteration_count] [population_size] [crossover_operator] [mutation_operator] [generation_count] [m] [n] [k]<br>
 <br>
-
 
 #### Example:<br>
 <br>
