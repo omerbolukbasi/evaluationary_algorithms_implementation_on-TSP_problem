@@ -4,8 +4,8 @@
 #### Parameters:
 <br>
 <br>
-<pre>
-file_name          # Input tsp file name.<br>
+
+<pre>file_name          # Input tsp file name.<br>
 iteration_count    # Number of iterations.<br>
 population_size    # Number of individuals in the population.<br>
 crossover_operator # "OX" for Ordered Crossover Operator, "SCX" Sequential Constructive Crossover.<br>
@@ -13,8 +13,8 @@ mutation_operator  # "ISM":Insertion Mutation, "IVM":Inversion Mutation, "SM":Sw
 generation_count   # Number of iterations(generations).<br>
 m                  # Apply 2-opt operator on randomly selected m individuals from the population. If the value is 0, 2-opt will not be implemented.<br>
 n                  # 2-opt operator is applied on the selected individual n times. If the value is 0, 2-opt will not be implemented. <br>
-k                  # Once in every k generations apply the 2-opt operator. If the value is 0, 2-opt will not be implemented.<br>
-</pre>
+k                  # Once in every k generations apply the 2-opt operator. If the value is 0, 2-opt will not be implemented.<br></pre>
+
 <br>
 <br>
 #### Usage:
